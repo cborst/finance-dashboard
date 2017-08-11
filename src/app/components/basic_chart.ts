@@ -33,6 +33,7 @@ export class BasicChart implements OnInit {
 
   //Company data from input
   @Input() companyData : CompanyData[];
+  @Input() stockData;
 
   ngOnInit() {
     //To be completed
@@ -48,8 +49,17 @@ export class BasicChart implements OnInit {
         err => {throw 'Chart Error'},
         () => {console.log("Complete")}
       );
-    }
+    } 
+    this.stockData.subscribe(
+      //TODO
+    );
   }
+
+  seriesFromRes(res) : Series<number>[][] {
+    return [];
+  }
+
+  
 
   //Generate random placeholder data
   generateData() {
