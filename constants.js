@@ -140,7 +140,7 @@ exports.financeCompanies =[
     'ZION'
     //END FINANCIAL SECTOR
 ]
-/*
+
 
 exports.healthCareCompanies = [
     'ABT', 
@@ -604,7 +604,7 @@ exports.teleComm =[
 
 
 //INITIALIZING COMPANIES IN TECH SECTOR
-/* var sectors = {};
+ var sectors = {};
 
 for(var i =0; i <exports.companies.length; i++) {
     sectors[exports.companies[i]] = 'TECH';
@@ -622,7 +622,7 @@ for(var i =0; i <exports.companies.length; i++) {
 
 for(var i =0; i <exports.financeCompanies.length; i++) {
     exports.sectorLookup[exports.financeCompanies[i]] = 'FINA';
-<<<<<<< HEAD
+
 }
 
 //INITIALIZING COMPANIES FOR HEALTH CARE SECTOR
@@ -674,15 +674,14 @@ for(var i =0; i <exports.teleComm.length; i++) {
 
 //for loop goes here
 //test dashboard
-var keys = Object.keys(exports.sectorLookup)
+/*var keys = Object.keys(exports.sectorLookup)
  console.log(keys);
 
  for (var i = 0; i < keys.length; i++) {
      console.log(exports.sectorLookup[keys[i]]);
  }
-    
-=======
-}
->>>>>>> upstream/master
+    */
 
-*/
+
+
+
