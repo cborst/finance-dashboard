@@ -161,10 +161,6 @@ exports.financeCompanies =[
     //END FINANCIAL SECTOR
 ]
 
-<<<<<<< HEAD
-
-=======
->>>>>>> upstream/master
 exports.healthCareCompanies = [
     'ABT', 
     'ABBV',
