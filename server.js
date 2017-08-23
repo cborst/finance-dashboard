@@ -6,7 +6,7 @@ const constants = require('./constants');
 
 const app = express();
 
-var client = new pg.Client(process.env.DATABASE_URL || config.conString);
+var client = new pg.Client(process.env.DATABASE_URL);
 client.connect((err) => {  
     if (err) console.log(err);
 });
