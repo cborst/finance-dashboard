@@ -1,3 +1,23 @@
+/**
+ * SECTOR ABBREVIATIONS:
+ * 
+ * TECH: technology
+ * FINA: financial
+ * HECA: healthcare
+ * COND: consumer discretionary
+ * ENER: energy
+ * INDU: industrials
+ * MATE: materials
+ * UTIL: utilities
+ * REAL: real estate
+ * CONS: consumer staples
+ * TELC: telecommunications
+ * 
+ * @author Evan Zou
+ * @author Christopher Borst
+ */
+
+
 exports.companies = [
     //TECH SECTOR
     'ACN',
@@ -141,7 +161,10 @@ exports.financeCompanies =[
     //END FINANCIAL SECTOR
 ]
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
 exports.healthCareCompanies = [
     'ABT', 
     'ABBV',
@@ -597,91 +620,63 @@ exports.teleComm =[
     'VZ'
 ]
 
-
-
-
-
-
-
-//INITIALIZING COMPANIES IN TECH SECTOR
- var sectors = {};
-
-for(var i =0; i <exports.companies.length; i++) {
-    sectors[exports.companies[i]] = 'TECH';
-}
-
-
-
 exports.sectorLookup ={}
 for(var i =0; i <exports.companies.length; i++) {
     exports.sectorLookup[exports.companies[i]] = 'TECH';
 }
 
-//INITIALIZING COMPANIES IN FINANCIAL SECTOR
-
-
 for(var i =0; i <exports.financeCompanies.length; i++) {
     exports.sectorLookup[exports.financeCompanies[i]] = 'FINA';
-
 }
-
-//INITIALIZING COMPANIES FOR HEALTH CARE SECTOR
 
 for(var i =0; i <exports.healthCareCompanies.length; i++) {
     exports.sectorLookup[exports.healthCareCompanies[i]] = 'HECA';
 }
 
-// INITIALIZING CONSUMER DISCRETIONARIES
 for(var i =0; i <exports.consumerDiscretionary.length; i++) {
     exports.sectorLookup[exports.consumerDiscretionary[i]] = 'COND';
 }
 
-//INITIALLIING ENERGY COMPANIES
 for(var i =0; i <exports.energy.length; i++) {
     exports.sectorLookup[exports.energy[i]] = 'ENER';
 }
 
-//INTIALIZING INDUSTRIALS
 for(var i =0; i <exports.industrials.length; i++) {
     exports.sectorLookup[exports.industrials[i]] = 'INDU';
 }
 
-//INITIALIZING MATERIALS
 for(var i =0; i <exports.materials.length; i++) {
     exports.sectorLookup[exports.materials[i]] = 'MATE';
 }
 
-//INITALIZING UTILITIES
 for(var i =0; i <exports.utilities.length; i++) {
     exports.sectorLookup[exports.utilities[i]] = 'UTIL';
 }
 
-//INITIALIZING REAL ESTATE
 for(var i =0; i <exports.realEstate.length; i++) {
     exports.sectorLookup[exports.realEstate[i]] = 'REAL';
 }
 
-//INITIALIZING CONSUMER STAPLES
 for(var i =0; i <exports.consumerStaples.length; i++) {
     exports.sectorLookup[exports.consumerStaples[i]] = 'CONS';
 }
 
-//INITALIZING TELECOMMUNICATIONS
 for(var i =0; i <exports.teleComm.length; i++) {
     exports.sectorLookup[exports.teleComm[i]] = 'TELC';
 }
 
+exports.allCompanies = exports.companies.concat(exports.financeCompanies, 
+    exports.healthCareCompanies, exports.consumerDiscretionary, 
+    exports.energy, exports.industrials, exports.materials, exports.utilities,
+    exports.realEstate, exports.consumerStaples, exports.teleComm);
 
-//for loop goes here
-//test dashboard
+//TEST
+
+
 /*var keys = Object.keys(exports.sectorLookup)
- console.log(keys);
+console.log(keys);
 
- for (var i = 0; i < keys.length; i++) {
-     console.log(exports.sectorLookup[keys[i]]);
- }
-    */
-
-
-
-
+for (var i = 0; i < keys.length; i++) {
+    console.log(exports.allCompanies[i]);
+    //console.log(keys[i] + ", " + exports.sectorLookup[keys[i]]);
+} //*/
