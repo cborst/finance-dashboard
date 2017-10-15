@@ -611,7 +611,17 @@ export const favorites = [
     'HPQ',
     'RHT',
     'HRS',
-    'LRCX'
+    'LRCX',
+    'BLK',
+    'BTFC',
+    'ICE',
+    'SYK',
+    'CI',
+    'ABT',
+    'GM',
+    'RCL',
+    'MCD'
+
 ]
 
 export const allCompanies = companies.concat(financeCompanies, 
