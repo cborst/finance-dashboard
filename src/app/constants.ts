@@ -613,7 +613,7 @@ export const favorites = [
     'HRS',
     'LRCX',
     'BLK',
-    'BTFC',
+    'ETFC',
     'ICE',
     'SYK',
     'CI',
