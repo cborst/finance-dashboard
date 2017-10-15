@@ -606,21 +606,23 @@ export const teleComm = [
 ]
 
 export const favorites = [
+    'GM',
+    'RCL',
+    'MCD',
     'ADBE',
+    'RHT',
+    'BLK',
+    'BTFC',
     'DXC',
     'HPQ',
-    'RHT',
     'HRS',
     'LRCX',
-    'BLK',
     'ETFC',
     'ICE',
     'SYK',
     'CI',
-    'ABT',
-    'GM',
-    'RCL',
-    'MCD'
+    'ABT'
+   
 
 ]
 
