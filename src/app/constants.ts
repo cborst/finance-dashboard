@@ -608,29 +608,8 @@ export const teleComm = [
     'VZ'
 ]
 
-<<<<<<< HEAD
-export const favorites = [
-    'CI',
-    'LRCX',
-    'PYPL',
-    'V',
-    'ANTM',
-    'UNH',
-    'MS',
-    'DXC',
-    'HPQ',
-    'SYK',
-    'SWK',
-    'HRS',
-    'MS',
-    'AAPL'
-   
-
-]
-=======
 export const favorites = companyList.favorites
 
->>>>>>> upstream/master
 
 export const allCompanies = companies.concat(financeCompanies, 
     healthCareCompanies, consumerDiscretionary, energy, 
