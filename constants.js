@@ -18,6 +18,7 @@
  */
 
 
+
 exports.companies = [
     //TECH SECTOR
     'ACN',
@@ -614,6 +615,15 @@ exports.teleComm =[
     'FTR',
     'LVLT',
     'VZ'
+]
+
+exports.favorites =[
+    'NVDA',
+    'AAPL',
+    'MSFT',
+    'ORCL',
+    'NRG',
+    'PYPL'
 ]
 
 exports.sectorLookup ={}

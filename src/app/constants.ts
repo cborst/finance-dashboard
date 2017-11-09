@@ -1,5 +1,8 @@
 //Temporary storage for constants
 
+//constants are listed in 2 places, this will avoid changing favorites in 2 places
+import * as companyList from '../../constants.js';
+
 //The companies we are interested in
 export const companies = [
     'ACN',
@@ -605,6 +608,7 @@ export const teleComm = [
     'VZ'
 ]
 
+<<<<<<< HEAD
 export const favorites = [
     'CI',
     'LRCX',
@@ -623,6 +627,10 @@ export const favorites = [
    
 
 ]
+=======
+export const favorites = companyList.favorites
+
+>>>>>>> upstream/master
 
 export const allCompanies = companies.concat(financeCompanies, 
     healthCareCompanies, consumerDiscretionary, energy, 
