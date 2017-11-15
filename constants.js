@@ -630,7 +630,10 @@ exports.favorites =[
     'VIRT',
     'MDT',
     'DPZ',
-    'KORS'
+    'KORS',
+    'CRM',
+    'AMZN',
+    'SYK'
 ]
 
 exports.sectorLookup ={}
