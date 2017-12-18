@@ -618,22 +618,13 @@ exports.teleComm =[
 ]
 
 exports.favorites =[
-    'V',
-    'AAPL',
+    'AME',
+    'FIS',
     'MSFT',
-    'PYPL',
-    'ANTM',
-    'UNH',
-    'LRCX',
-    'MAR',
-    'DXC',
-    'VIRT',
-    'MDT',
-    'DPZ',
+    'AVY',
     'KORS',
-    'CRM',
     'AMZN',
-    'SYK'
+    'FB'
 ]
 
 exports.sectorLookup ={}
